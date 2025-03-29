@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pilaivjw/public_html/wp-content/themes/starlitInnovations
+    - /bin/cp -r * $DEPLOYPATH
